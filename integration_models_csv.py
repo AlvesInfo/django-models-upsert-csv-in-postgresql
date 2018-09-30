@@ -20,7 +20,7 @@ TIME_SLEEP = 2
 
 def integration_file_csv(kwargs_cnx, kwargs_file, kwargs_modele, kwargs_validate, kwargs_upsert):
     """
-    Intégration génerique de fichiers en base de données
+    Intégration génerique de fichiers csv en base de données pour un modèle Django
               :param kwargs_cnx: Paramètres pour string_connection
                                     kwargs_cnx = {
                                         NAME_DATABASE,
