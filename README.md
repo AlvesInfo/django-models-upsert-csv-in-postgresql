@@ -1,4 +1,5 @@
 # django-models-upsert-csv-in-postgresql
+"""
 Intégration génerique de fichiers csv en base de données pour un modèle Django
             :param kwargs_cnx: Paramètres pour string_connection
                                     kwargs_cnx = {
@@ -40,3 +41,4 @@ Intégration génerique de fichiers csv en base de données pour un modèle Djan
                                         upsert=True
                                     }
         :return: None ou True, "success"
+"""
