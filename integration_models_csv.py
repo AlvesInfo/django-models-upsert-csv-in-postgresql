@@ -6,17 +6,14 @@ import csv
 from datetime import datetime as dt
 import time
 
-from apps.core.functions.functions_postgresql import (
+from functions import (
     cnx_postgresql,
     execute_prepared_upsert,
     GetModel,
-)
-from apps.core.functions.functions_logs import LOG_FILE, write_log, envoi_mail_erreur
-from apps.core.functions.functions_utilitaires import (
     delete_file,
     list_file,
+    CsvTxtValidator
 )
-from apps.core.functions.functions_validators import CsvTxtValidator
 
 TIME_SLEEP = 2
 
